@@ -1,0 +1,35 @@
+{
+  "name": "QUEEN SPRIKY MD WHATSAPP BOT",
+  "description": "Button Supported WhatsApp Bot Developed By Udavin",
+  "logo": "https://github.com/uwtechshow-official/Spriky-Database/blob/main/Logo/Bot.jpg?raw=true",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "value" :"7iJWlJQQ#LjnjSKFlJmudP7MLUm-HTTM6qHf3tP7ShEDkGhxc6yE",
+      "required": true
+    },
+    
+    "MONGODB": {
+      "description": "Enter Your Mongodb Url Here.",
+      "value" :"mongodb+srv://mdprabath518:1234@cluster0.swetgsg.mongodb.net/",
+      
+      "required": true
+    },
+
+    "OwnerNumber": {
+      "description": "Enter Your Owner Number Here.",
+      "required": false
+    }
+  },
+
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  
+  "stack": "heroku-24"
+}
